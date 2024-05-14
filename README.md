@@ -92,7 +92,33 @@ npm init builder.io@latest
 
 ```
 
-When prompted, respond __Yes__ to integrating with Builder.io. It will install all the required items for you. Now you can simply start working on the content in few minutes within your Dashboard. But before that, let us configure some code in your Next.js application. 
+When prompted, respond __Yes__ to integrating with Builder.io. It will install all the required items for you. Now you can simply start working on the content in few minutes within your Dashboard. 
+
+__Start the development server:__
+
+```bash
+  npm run dev
+```
+
+Open your browser and enter your URL (http://localhost:3000) and you will be presented with the below onboarding process. Please follow them accordingly.
+
+
+<img width="1618" alt="Screenshot 2024-05-15 at 01 12 45" src="https://github.com/uttej-vsk/Hello-Builder/assets/83727090/77bde0e3-2aa4-41bb-a90c-a9b0a3082e21">
+
+
+
+
+<img width="650" alt="Screenshot 2024-05-15 at 01 12 59" src="https://github.com/uttej-vsk/Hello-Builder/assets/83727090/637098fa-f9f7-497b-be9f-d674a36e81a2">
+
+
+
+
+<img width="1108" alt="Screenshot 2024-05-15 at 01 13 08" src="https://github.com/uttej-vsk/Hello-Builder/assets/83727090/21eba0cc-3da7-4a65-a71c-19d866ec148e">
+
+
+
+
+Now, let us configure some code in your Next.js application before we play with Builder.io and its platform. 
 
 
 # Add a Builder Component to your app
@@ -194,9 +220,18 @@ export default async function Page(props: PageProps) {
 
 - In the create page popup, enter __Name__ and set __URL__ for the page and press __Create Page__.
 
-- It will redirect you to the visual editor. Now you can drag some Text Blocks on the screen, with some copy such as "Hello World!".
+- It will redirect you to the visual editor. Now you can drag some Text Blocks from the left panel on the screen, with some copy such as "Hello World!".
 
-- Click the __Publish__ button.
+- You will find lot of customisation options in the content page:
+
+      - Drag & Drop blocks
+      - Visual Editor AI
+      - Templates
+      - Import from Figma
+      - You can connect to External Data
+      - View Code etc.
+
+- Once you are done with your conten, click the __Publish__ button.
 
 - Visit http://localhost:5000/test-page, where test-page is the name you gave your page, to see your creation "Hello World!" displayed on your local machine. 
 
